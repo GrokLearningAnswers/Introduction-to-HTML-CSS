@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=UnifrakturMaguntia);
+@import url(https://fonts.googleapis.com/css?family=Berkshire+Swash);
+
+h1{
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+p{
+    font-family: 'Berkshire Swash', cursive;
+}
+
+body{
+    font-size: 20px;
+    background: rgb(219,196,160);
+    color: rgb(101,72,48);
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+h1{
+    font-size: 64px;
+    text-align: center;
+}

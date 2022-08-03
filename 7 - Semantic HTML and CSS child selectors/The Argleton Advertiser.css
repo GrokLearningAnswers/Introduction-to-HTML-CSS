@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=UnifrakturMaguntia");
+
+* { box-sizing: border-box; }
+
+body {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+img {
+    padding: 2px;
+    border: 1px solid lightgray;
+    width: 100%;
+    display: block;
+}
+
+/* Header */
+.title {
+    font-family: 'UnifrakturMaguntia', cursive;
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 40px;
+}
+
+/* Nav bar */
+ul {
+    text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.column {
+    display: inline-block;
+    width: 260px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-right: 1px solid rgb(200,200,200);
+    vertical-align: top;
+}
+
+.headlines{
+    width: 370px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+section{
+    display: inline-block;
+    vertical-align: top;
+}
+
+article{
+    font-family: serif;
+    padding-bottom: 10px;
+}
+
+article > p{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+article > h1{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+article > h2{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+article > h3{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+article > h4{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+article > h5{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}

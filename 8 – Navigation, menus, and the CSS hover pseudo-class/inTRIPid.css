@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Crete+Round);
+
+* { box-sizing: border-box; }
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+nav{
+    background-color: rgb(222, 31, 66);
+}
+
+nav > ul> li{
+    display: inline-block;
+    padding: 20px;
+}
+
+nav > ul> li > a{
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li:hover{
+    background-color: rgb(180, 31, 66)
+}
+
+.logo{
+    color: white;
+    display: inline-block;
+    font-family: "Rock Salt";
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.hero-review{
+    height: 600px;
+    padding-top: 400px;
+    background-image: url(alaska.jpg);
+}
+
+.hero-review-text{
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    height: 200px;
+    padding: 20px;
+}
+
+h1{
+    font-family: "Crete Round";
+    color: white;
+    background-color: rgb(222, 31, 66);
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: -30px;
+}
+
+h2{
+    font-family: "Crete Round";
+}
+
+h3{
+    font-family: "Crete Round";
+}
+
+section{
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+a{
+    color: rgb(180, 31, 66);
+    text-decoration: none;
+}
+
+.review-text{
+    display: inline-block;
+    width: 790px;
+    margin-left: 30px;
+}
+
+.featured-destinations{
+    background-color: lightgrey;
+}
+
+.destination{
+    background-color: white;
+    display: inline-block;
+    width: 225px;
+    height: 240px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+footer > section{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.social{
+    font-size: 30px;
+}

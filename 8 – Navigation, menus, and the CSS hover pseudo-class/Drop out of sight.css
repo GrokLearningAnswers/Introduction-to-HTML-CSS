@@ -1,0 +1,38 @@
+* { box-sizing: border-box; }
+
+ul {
+    background-color: skyblue;
+    padding: 0;
+}
+
+a {
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > ul {
+    background-color: rgb(121, 185, 211);
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+}
+
+nav > ul > li:hover > ul {
+    display: block;
+}
+
+nav > ul > li > ul > li:hover{
+    background-color: rgb(185, 211, 121);
+}
+
+li:hover{
+    background-color: rgb(121,185,211);
+
+}

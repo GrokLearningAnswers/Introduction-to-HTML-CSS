@@ -1,0 +1,12 @@
+body {
+    background: black;
+    color: white;
+    margin: 20px;
+
+}
+
+img {
+    height: 200px;
+    border: 10px solid white;
+    margin: 10px
+}

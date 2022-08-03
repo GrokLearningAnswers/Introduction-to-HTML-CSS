@@ -1,0 +1,22 @@
+body{
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    background: rgb(30,30,30);
+    text-align: center
+}
+
+li{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+
+em{
+    color: rgb(220, 0, 0)
+}
+img{
+    height: 240px
+}
